@@ -13,7 +13,7 @@ graph TD
 
     %% Descriptions for each node
     A -.-> |Symptoms, History, Test Results|,
-    B -.-> |Normalization, Ontology Mapping (UMLS, Orphanet)|,
+    B -.-> |Normalization, Ontology Mapping(UMLS, Orphanet)|,
     C -.-> |Disease Profiles, Symptoms, Genes, Prevalence, Treatments|,
     D -.-> |ML Models, Rule-based Reasoning, Probability Calculation|,
     E -.-> |Prioritized List of Candidate Diagnoses|,
