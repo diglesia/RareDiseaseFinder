@@ -1,7 +1,7 @@
 # RareDiseaseFinder
 Rare Disease Finder analyzes patient data against a specialized knowledge base to suggest and rank potential rare disease diagnoses
 
-mermaid graph TD
+```mermaid graph TD
     
     A[Patient Data Input] --> B{Data Processing & Standardization}
     B --> C[Rare Disease Knowledge Base]
@@ -26,3 +26,4 @@ mermaid graph TD
     style F fill:#D4E6F1,stroke:#3498DB,stroke-width:2px,color:#2C3E50
 
     classDef default fill:#F2F2F2,stroke:#333,stroke-width:1px,color:#000
+```
