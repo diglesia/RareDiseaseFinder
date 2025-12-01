@@ -12,11 +12,11 @@ graph TD
     E --> F[Output & Additional Information]
 
     %% Descriptions for each node
-    A -.-> |Symptoms, History, Test Results| 
-    B -.-> |Normalization, Ontology Mapping (UMLS, Orphanet)| 
-    C -.-> |Disease Profiles, Symptoms, Genes, Prevalence, Treatments| 
-    D -.-> |ML Models, Rule-based Reasoning, Probability Calculation| 
-    E -.-> |Prioritized List of Candidate Diagnoses| 
+    A -.-> |Symptoms, History, Test Results|,
+    B -.-> |Normalization, Ontology Mapping (UMLS, Orphanet)|,
+    C -.-> |Disease Profiles, Symptoms, Genes, Prevalence, Treatments|,
+    D -.-> |ML Models, Rule-based Reasoning, Probability Calculation|,
+    E -.-> |Prioritized List of Candidate Diagnoses|,
     F -.-> |Suggested Rare Disease, Justification, References (Trials, Specialists)|
 
     style A fill:#D4E6F1,stroke:#3498DB,stroke-width:2px,color:#2C3E50
